@@ -185,3 +185,137 @@
   color: white;
   border: 0;
 }
+
+.gift-title-heading {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.gift-heading-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.gift-title {
+  position: relative;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.gift-title-container {
+  position: relative;
+  text-align: left;
+  margin-top: 120px;
+  margin-right: 400px;
+}
+
+.gift-title-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  width: 896px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.gift-img {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-img-photo {
+  margin: 5px;
+}
+
+.subscribe {
+  position: relative;
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-section {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.subscribe-sub-section {
+  margin-top: 100px;
+}
+
+.subscribe-heading {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.subscribe-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+label {
+  position: absolute;
+}
+
+input {
+  border: none;
+  padding: 15px;
+  width: 672px;
+  height: 30px;
+  border-radius: 50px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.subscribe-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: none;
+  padding: 15px;
+  background: #f00;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.placehold-btn-section {
+  padding-right: 680px;
+}
