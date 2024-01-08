@@ -308,7 +308,7 @@ input {
   padding: 15px;
   background: #f00;
   color: #fff;
-  border-radius: 50px;
+  border-radius: 0 25px 25px 0;
   text-align: center;
   font-family: Inter;
   font-size: 20px;
@@ -318,4 +318,95 @@ input {
 
 .placehold-btn-section {
   padding-right: 680px;
+}
+
+/* Footer Section */
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section {
+  background: #070211;
+  width: 1600px;
+  height: 609px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.footer-sub-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px 120px 50px 120px;
+}
+.footer-address {
+  width: 375px;
+  height: 80px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+.footer-call {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+.footer-site {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+hr {
+  width: 1320px;
+  height: 1px;
+  color: rgba(255, 255, 255, 0.15);
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-pic {
+  padding: 25px 24px 24px 48px;
+}
+
+.footer-down-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-rights {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
